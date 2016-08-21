@@ -2,17 +2,11 @@ package Server;
 
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.io.PrintWriter;
-import java.net.ServerSocket;
-import java.net.Socket;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Map;
 
-/**
- * Created by ruslanka on 19.08.16.
- */
 public class Server {
     LinkedList<String> prevMessages = new LinkedList<String>();
     Map<String, Connection> connections = new HashMap<String, Connection>();

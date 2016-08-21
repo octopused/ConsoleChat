@@ -6,9 +6,6 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 
-/**
- * Created by ruslanka on 21.08.16.
- */
 public class ConnectionProtocolClient {
     public BufferedReader in;
     public PrintWriter out;

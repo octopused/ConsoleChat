@@ -7,9 +7,6 @@ import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-/**
- * Created by ruslanka on 21.08.16.
- */
 public class ConnectionProtocolServer {
     public BufferedReader in;
     public PrintWriter out;
